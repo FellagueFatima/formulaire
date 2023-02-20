@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>  FORMULAIRE A REMPLIR</h1>
+<form method="get" action="form">
+    
+    <fieldset>
+        <legend><strong>Contact</strong> </legend>
+<p>
+    <label for="nom">Nom</label>
+    <input type="text" name="nom" id="nom">
+</p>
+        <p>
+        <label for="age">Age</label>
+            <input type="text" name="age" id="age">
+        </p>
+        
+        <p>
+        
+            <label for="sexe">F</label>
+            
+            <input type="text"name="sexe"id="sexe"/>
+            </p>
+            <p>
+            <label for="sexe">M</label>
+            
+            <input type="text"name="text"id="text"/>
+            </p>
+            <p>
+
+        <label for="tel">numéron de téléphone</label>
+        <input type="tel" name="tel" id="tel">
+        </p>
+        <p>
+
+        <label for="email">email</label>
+        <input type="email"name="email" id="email" placeholder="jean-b@gmail.com">
+    </p>
+    <p>
+        <label for="adresse">Adresse postal</label>
+        <input type="text" name="adresse" id="adresse" size="30" maxlength="30" placeholder="20rue jean-charle 35620">
+    </p>
+    <p>
+
+        <label for="Numero">Code postale</label>
+        <input type="text" name=Numero id="Numero" size="20" maxlength="5">
+        </p>
+    <p>
+        <label for="ville">Ville</label>
+        <input type="text" name="ville" id="ville">
+    </p>
+</fieldset>
+<fieldset>
+
+     <legend> <strong> Information complémentaire</strong></legend>
+     <p>
+        <label for="metierexerce">Métier exercé</label>
+        <input type="text" name="metierexerce" id="metierexerce">
+        </p>
+    <p>
+        <label for="pays">Nationalite</label>
+    
+            <select name="pays" id="liste1">
+        <option value="Allemagne"> Allemagne </option>
+        <option value="Canada"> Canada </option>
+        <option value="Espagne"> Espagne </option>
+        <option value="Etats-Unis" > Etats-Unis </option>
+        <option value="France"> France </option>
+        <option value="Japon"> Japon </option>
+        <option value="Royaume-Uni"> Royaume-Uni </option>
+        </select>
+        
+    </p>
+<p>
+    <label for="date">Date de naissance</label>
+    <input type="date">
+    </p>
+    <p>
+    <label for="number">Numéro de sécuritté social</label>
+    <input type="number" name="number" id="number">
+    </p>
+<p>
+    <label for="pays">pays de naissance</label>
+    <input type="text" name="pays" id="pays">
+    </p>
+    <p>
+    <label for="date">Numéro de Passeport</label>
+    <input type="date" name="date" id="date">
+</p>
+<p>
+    <label for="text"> Date de délivrance du Passeport</label>
+    <input type="text" name="passeport" id="passeport">
+    </p>
+<p>
+    <label for="date">Date de validité du Passeport</label>
+    <input type="date">
+    </p>
+
+</fieldset>
+<p>
+
+    <input type="submit" value="Valider" onclick="afficheEntree();">
+</p>
+</form>
+</body>
+</html>
